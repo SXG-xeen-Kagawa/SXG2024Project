@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57c596ddaec0cc8498c553149f8b0cb0, type: 3}
+  m_Name: ParticipantList
+  m_EditorClassIdentifier: 
+  m_comPlayers:
+  - {fileID: 7244676822096050758, guid: 3140c538a44e2b745b8dd5e4d88121fa, type: 3}
+  - {fileID: 2571462866282098520, guid: 7ec928ef4296e844aa01ec6ce47e6942, type: 3}
+  - {fileID: -976225823811503876, guid: 0ba2adbdd5c34d047a848fb144896e08, type: 3}
+  - {fileID: -4055773444129648167, guid: 13e5c89700aeb884db642bdf6a543c63, type: 3}
+  - {fileID: 2166314457688432621, guid: f56ef2da99455984e84bdf16ee559413, type: 3}
+  - {fileID: -1960448560959839588, guid: 5107325ed30053f4fa094055dd3e35e3, type: 3}

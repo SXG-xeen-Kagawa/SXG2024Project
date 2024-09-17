@@ -1,0 +1,23 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using SXG2024;
+
+#ROOTNAMESPACEBEGIN#
+namespace #SCRIPTNAME#
+{
+	public class #SCRIPTNAME# : ComPlayerBase
+	{
+		public override bool UDON_ShouldGetTheFoodOnStage(FoodNowInfo foodInfo)
+		{
+			return true;
+			#NOTRIM#
+    	}
+
+		public override void UDON_ReportOnShipping(IList<FoodType> foodsList, int tableId, int price, string menuName)
+    	{
+			#NOTRIM#
+    	}
+	}
+}
+#ROOTNAMESPACEEND#

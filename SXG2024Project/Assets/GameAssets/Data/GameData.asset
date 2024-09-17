@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1501c496cd212e4d8a13c0b559c1b6f, type: 3}
+  m_Name: GameData
+  m_EditorClassIdentifier: 
+  m_totalCountOfFoods: 80
+  m_initialCountOfFoods: 20
+  m_countOfNoodles: 32
+  m_totalPlayTime: 90
+  m_hideScoreUiTime: 60
+  m_dropSpanTimeTable:
+  - m_time: 0
+    m_span: 0
+    m_countOfOnce: 0
+  - m_time: 5
+    m_span: 2
+    m_countOfOnce: 1
+  - m_time: 45
+    m_span: 2
+    m_countOfOnce: 2
+  - m_time: 60
+    m_span: 2
+    m_countOfOnce: 3

@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b2bba647d7fb6b498251a1991c37ac9, type: 3}
+  m_Name: FoodsData
+  m_EditorClassIdentifier: 
+  m_foods:
+  - m_name: "\u3046\u3069\u3093\u7389"
+    m_foodType: 0
+    m_foodPrefab: {fileID: 7372171178515597898, guid: 6b742afa46fb00c44adb794342d22db3,
+      type: 3}
+  - m_name: "\u6D77\u8001\u5929"
+    m_foodType: 1
+    m_foodPrefab: {fileID: 8659146814428113568, guid: 602634a6f4a22634e97be2f92ac5d9db,
+      type: 3}
+  - m_name: "\u3061\u304F\u308F\u5929"
+    m_foodType: 2
+    m_foodPrefab: {fileID: 3153723905597056745, guid: e1fc7a942bea4464083834a0e6b5e0bf,
+      type: 3}
+  - m_name: "\u304D\u3064\u306D"
+    m_foodType: 3
+    m_foodPrefab: {fileID: 8270715297113032704, guid: 8acf77b0c2b4f0440a5faff2d5dbf7b0,
+      type: 3}
+  - m_name: "\u5927\u6839\u304A\u308D\u3057"
+    m_foodType: 4
+    m_foodPrefab: {fileID: 2622880930312141762, guid: f7b8e914cd9d522428e37a2f80fa818e,
+      type: 3}
+  - m_name: "\u5375"
+    m_foodType: 5
+    m_foodPrefab: {fileID: 3166674056170859523, guid: 654885eeb3401e74386abc6c92cee0dc,
+      type: 3}
+  - m_name: "\u8089"
+    m_foodType: 6
+    m_foodPrefab: {fileID: 2769427981059061893, guid: fa9a5a3a19d4e9f489c077668ce12a6a,
+      type: 3}
+  - m_name: "\u30D0\u30BF\u30FC"
+    m_foodType: 7
+    m_foodPrefab: {fileID: 1291972342804661424, guid: 1b5374712636bb7498a6eb0988e4439d,
+      type: 3}
+  - m_name: "\u30EC\u30E2\u30F3"
+    m_foodType: 8
+    m_foodPrefab: {fileID: 8609173548193019841, guid: 5865e50123d0a6a4ea3cd9643f4384bf,
+      type: 3}
+  - m_name: "\u30AB\u30EC\u30FC"
+    m_foodType: 9
+    m_foodPrefab: {fileID: 4775429238009204224, guid: ef8052539f85c704d88cc857f371016b,
+      type: 3}

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b82724da7f903e5428b6e0e5258644a0, type: 3}
+  m_Name: 13_nikukama
+  m_EditorClassIdentifier: 
+  m_name: "\u8089\u91DC\u7389\u3046\u3069\u3093"
+  m_price: 550
+  m_priceRatio: 1
+  m_requiredFoods:
+  - m_foodType: 0
+    m_count: 1
+    m_onPriceRatioBonus: 0
+  - m_foodType: 6
+    m_count: 1
+    m_onPriceRatioBonus: 1
+  - m_foodType: 5
+    m_count: 1
+    m_onPriceRatioBonus: 0
+  m_badFoods: 04000000

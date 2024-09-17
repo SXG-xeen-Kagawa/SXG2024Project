@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bc1f8e9730249a468e771414daf219d, type: 3}
+  m_Name: PrefabsData
+  m_EditorClassIdentifier: 
+  m_udonChefPrefab: {fileID: 1567375663973071794, guid: e07eceeb85b30a148a4499e97ec1ff08,
+    type: 3}
+  m_udonBowlPrefab: {fileID: 8624176900702666758, guid: 7b1049e3a988ccc408626f5cdb0c65ab,
+    type: 3}
+  m_comTargetCirclePrefab: {fileID: 8224784395070418047, guid: 1e4f21ccf13f56746834ddeea0b22bc9,
+    type: 3}
+  m_charaRenderCameraPrefab: {fileID: 8291889379921200540, guid: c0518f56461e047409cd1379fd2fe669,
+    type: 3}
+  m_simpleCapsuleCharacter: {fileID: 5043670144471445930, guid: 17e5c147c549ad147a1e522d23fb2535,
+    type: 3}
+  m_maleCitizenCharacter: {fileID: 1489666609893779370, guid: 6529eb2cb39e1674999b85f13197ed42,
+    type: 3}
