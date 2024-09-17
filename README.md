@@ -17,7 +17,7 @@
 ステージはつるつる滑るので、間違って他のプレイヤーの出荷テーブルに出荷しないように気をつけて！<br>
 他プレイヤーをキックで吹っ飛ばして妨害も可能！？<br>
 
-[![紹介動画](https://youtu.be/5TRa4eK_FKI)](https://github.com/user-attachments/assets/9a6cabb4-a335-4f96-aa77-af5715f97983 "紹介動画")
+[![紹介動画](https://github.com/user-attachments/assets/9a6cabb4-a335-4f96-aa77-af5715f97983)](https://youtu.be/5TRa4eK_FKI "紹介動画")
 
 - 一試合4人のAIプレイヤーで対戦
 - 一試合の制限時間は1分30秒
