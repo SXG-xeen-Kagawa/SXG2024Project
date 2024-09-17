@@ -1,4 +1,4 @@
-# SXGプログラミングバトル2024　めざせ最強うどん職人！！
+# SXGプログラミングバトル2024<br>めざせ最強うどん職人！！
 
 ![画面_タイトル](https://github.com/user-attachments/assets/2581da80-0fa1-4c2a-b707-048a0b369406)
 
@@ -34,7 +34,7 @@
 
 - 会場開催 & YoutubeLiveで配信 の想定
 - 16人で行うトーナメント形式
-- 参加者が多い場合は事前に予選を行い、本番では上位16人のトーナメントのみ配信
+- 参加者が多い場合は事前に予選を行って16名に絞り、本番では1回戦と2回戦(決勝)のみを配信
 
 ![ルッカ6](https://github.com/user-attachments/assets/dfc3b633-21f4-48dc-b61f-e360d5586fb8)
 
@@ -44,7 +44,8 @@
 
 - Unity 2022.3.39f1
 
-※このGitリポジトリをクローン/チェックアウトするか、ダウンロードして、ローカル環境にUnityプロジェクトを落としてください。
+※このリポジトリのmainブランチをクローンするか<br>
+　ダウンロードして、ローカル環境にUnityプロジェクトを落としてください。
 
 ---
 
@@ -127,11 +128,6 @@ Spaceキーを押すと、試合開始します。<br>
 
 <img src="https://github.com/user-attachments/assets/39d990bd-a46a-4b62-9dce-1362f6c89070" width="50%"><br>
 
-PageUpキーを押すと、試合を早送り（1倍速→2倍速→4倍速）することができます。<br>
-PageDownキーで、4倍速→2倍速→1倍速にできます。
-
-<img src="https://github.com/user-attachments/assets/106da45f-04f5-4b2c-a138-56050682d71d" width="50%"><br>
-<img src="https://github.com/user-attachments/assets/334d5aad-bca9-49b4-8ef6-0bad9464fb19" width="50%"><br>
 
 試合終了すると「GAME SET」が表示されます。<br>
 
@@ -142,6 +138,14 @@ Spaceキーを押すと、リザルト演出に移ります。<br>
 
 <img src="https://github.com/user-attachments/assets/36b4abff-ffb7-4cab-8352-d4fb81454d10" width="50%">
 
+<br>
+
+#### TIPS
+PageUpとPageDownで実行速度の変更（1→2→4倍速）が可能です。<br>作ったAIプログラムの動作確認時にご利用ください。
+
+
+<img src="https://github.com/user-attachments/assets/334d5aad-bca9-49b4-8ef6-0bad9464fb19" width="50%"><br>
+<br><br>
 ### AI作成時に継承するベースクラス（Assets/UdonChef/ComPlayerBase.cs）
 
 AIを作成時、ComPlayerBaseクラスを継承します。<br>
@@ -513,6 +517,7 @@ List<int> SXG_GetCollidedPlayersNumber();
 ---
 
 ## プレイヤー挙動
+スクリーンショットでは人型になってますが、配布プロジェクトでは権利の関係でカプセルになっています。<br>本番の配信では人型キャラでプレイされます。
 
 ### 目的座標へ走る
 
@@ -610,7 +615,7 @@ Sample02の行動をベースに、他のプレイヤーに触れたらキック
 
 ### Sample04（Assets/Participant/Sample04 以下）
 
-■所属名：XEEN<br>
+■所属名：xeen<br>
 ■挑戦者名：ぴよまる<br>
 ■特徴：オールラウンダーなやつ
 
@@ -671,7 +676,8 @@ Sample02の行動をベースに、他のプレイヤーに触れたらキック
 | 肉カレーうどん   | 970  | うどん玉<br>肉<br>カレー                  | 肉         | バター<br>大根 | ![メニュー_肉カレーうどん](https://github.com/user-attachments/assets/792a5a6c-c63a-40ec-a7eb-032e56ea5ab3) |
 | エックスうどん   |  2700 | うどん玉<br>海老天 ×2<br>肉<br>レモン     |            | バター         | ![メニュー_エックスうどん](https://github.com/user-attachments/assets/a6a4e21e-6e38-4028-9932-16fd3d0b0ba2) |
 
-※ゲーム内では拾った食材を積み上げているため、メニュー画像はイメージです。
+※ゲーム内では拾った食材を積み上げているため、メニュー画像はイメージです。<br>
+※Bad食材・Bonus食材が出荷したうどんに含まれていた場合、<br>　リザルト時にメニュー名に(↓)や(↑↑)のようにBad数・Bonus数に応じた上下矢印が表示されます。
 
 ![ルッカ5](https://github.com/user-attachments/assets/94b21063-2448-46a1-b3ff-cc40732b96a4)
 
