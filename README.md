@@ -3,6 +3,7 @@
 # SXGプログラミングバトル2024<br>めざせ最強うどん職人！！
 
 ![画面_タイトル](https://github.com/user-attachments/assets/2581da80-0fa1-4c2a-b707-048a0b369406)
+<br>※画像は開発中のものです<br>
 
 ## 概要
 
@@ -21,6 +22,7 @@
 
 ▼クリックで動画再生ページへジャンプします。（同じタブ/Youtubeです）
 [![紹介動画](https://github.com/user-attachments/assets/9a6cabb4-a335-4f96-aa77-af5715f97983)](https://youtu.be/5TRa4eK_FKI "紹介動画")
+<br>※画面は開発中のものです<br>
 
 - 一試合4人のAIプレイヤーで対戦
 - 一試合の制限時間は1分30秒
@@ -101,6 +103,7 @@ Assets/
 Spaceキーを押すと、挑戦者選択画面へ遷移します。
 
 <img src="https://github.com/user-attachments/assets/2581da80-0fa1-4c2a-b707-048a0b369406" width="50%">
+<br>※画像は開発中のものです<br>
 
 ### 挑戦者選択画面（Assets/Scenes/ParticipantSelection.scene）
 
@@ -109,6 +112,7 @@ AIは必ず4人選ぶ必要があります（重複可）。4人選ぶと「決�
 「決定」ボタンを押すと、ゲーム画面へ遷移します。
 
 <img src="https://github.com/user-attachments/assets/1b12f8c8-4996-4ee0-8fef-4460d8bab753" width="50%">
+<br>※画像は開発中のものです<br>
 
 ### ゲーム画面（Assets/Scenes/Game.scene）
 
@@ -117,29 +121,35 @@ AIは必ず4人選ぶ必要があります（重複可）。4人選ぶと「決�
 ゲーム画面から起動した場合は、挑戦者リスト（Assets/GameAssets/ParticipantList.asset）の上から4つ分の要素が選択されます。
 
 <img src="https://github.com/user-attachments/assets/00340903-ce1b-4bff-8b6e-d040a5d28f27" width="50%"><br>
+※画像は開発中のものです<br>
 
 Spaceキーを押すと、挑戦者の表示が消え、プレイ画面が表示されます。
 
 <img src="https://github.com/user-attachments/assets/f3d76309-0574-4594-b324-1d5ddf9d505d" width="50%"><br>
+※画像は開発中のものです<br>
 
 Spaceキーを押すと、試合開始します。<br>
 試合時間は1分30秒です。試合終了まで待ちます。
 
 <img src="https://github.com/user-attachments/assets/cef8bcf1-3273-497c-a959-f3ff51603734" width="50%"><br>
+※画像は開発中のものです<br>
 
 試合時間が残り30秒を切ると、画面下のUIは非表示になります。
 
 <img src="https://github.com/user-attachments/assets/39d990bd-a46a-4b62-9dce-1362f6c89070" width="50%"><br>
+※画像は開発中のものです<br>
 
 
 試合終了すると「GAME SET」が表示されます。<br>
 
 <img src="https://github.com/user-attachments/assets/13568e47-4336-4590-8ed5-0bfdf530eed1" width="50%"><br>
+※画像は開発中のものです<br>
 
 Spaceキーを押すと、リザルト演出に移ります。<br>
 再度Spaceキーを押すと、タイトル画面へ遷移します（リザルト演出中でも遷移可能）。
 
 <img src="https://github.com/user-attachments/assets/36b4abff-ffb7-4cab-8352-d4fb81454d10" width="50%">
+<br>※画像は開発中のものです<br>
 
 <br>
 
@@ -148,6 +158,8 @@ PageUpとPageDownで実行速度の変更（1→2→4倍速）が可能です。
 
 
 <img src="https://github.com/user-attachments/assets/334d5aad-bca9-49b4-8ef6-0bad9464fb19" width="50%"><br>
+※画像は開発中のものです<br>
+
 <br><br>
 ### AI作成時に継承するベースクラス（Assets/UdonChef/ComPlayerBase.cs）
 
@@ -184,8 +196,14 @@ PlayerSampleImage_***.png は、挑戦者のAIのアイコン画像として使�
 
 <h3 id="entrypoint">作成する前に</h3>
 
-**connpassでエントリーし、「受付番号」を発行してください。**<br>
+**connpassでエントリーし、「受付番号」を発行してください。**<br>  
 エントリーせずにAIを提出した場合、無効となります。<br>
+<br>
+①connpassで[イベント](https://connpass.com/event/330845/)に参加する<br>
+②イベントページの受付表を見るボタンを押す（参加ボタンと同じ場所にあります）<br>
+<img src="https://github.com/user-attachments/assets/c776090e-6e47-4971-8132-56e247d27c23"><br>
+③受付番号を確認する（7桁）<br>
+<img src="https://github.com/user-attachments/assets/0ad302ce-c06f-4efd-a838-6856cdb5f49b"><br>
 
 ### AI登録方法
 
@@ -220,23 +238,23 @@ PlayerSampleImage_***.png は、挑戦者のAIのアイコン画像として使�
 フォルダ名、各ファイル名は「Player(3桁の受付番号）」で命名されます。<br>
 同時に、挑戦者リスト（Assets/GameAssets/ParticipantList.asset）の0番目の要素に登録され、ゲーム内で挑戦者として選択できるようになります。
 
-例：受付番号 41
+例：受付番号 7777777
 
 ```
 Assets/
 └── Participant/
-    └── Player041/
-        ├── Player041.cs
-        ├── Player041.prefab
-        └── Player041.png
+    └── Player7777777/
+        ├── Player7777777.cs
+        ├── Player7777777.prefab
+        └── Player7777777.png
 ```
 
 Prefabで、以下の項目を変更できます。<br>
 　・所属名（Your Organization）<br>
 　・挑戦者名（Your Name）<br>
 　・アイコン画像ファイル（Face Image）<br>
-
- <img src="https://github.com/user-attachments/assets/790c3ca2-a7c8-497a-98ec-b8d46fcab1e8"><br>
+ 
+ <img src="https://github.com/user-attachments/assets/67d947d5-eee3-46d1-884f-29e7d867f1f8"><br>
 
 挑戦者作成ウィンドウでアイコン画像ファイルを設定しなかった場合、後から手動で追加してください。<br>
 アイコン画像を用意できない場合、サンプルアイコン画像（Assets/GameAssets/Textures/PlayerSampleImage_***.png）を使用しても構いません。
@@ -252,9 +270,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using SXG2024;
 
-namespace Player000
+namespace Player7777777
 {
-    public class Player000 : ComPlayerBase
+    public class Player7777777 : ComPlayerBase
     {
         public override bool UDON_ShouldGetTheFoodOnStage(FoodNowInfo foodInfo)
         {
@@ -273,12 +291,12 @@ namespace Player000
 
 #### 1. AIデータが入っているフォルダをZIP形式に圧縮
 
-例：受付番号 41
+例：受付番号 7777777
 
 ```
 Assets/
 └── Participant/
-    └── Player041　← このフォルダをZIPにする
+    └── Player7777777　← このフォルダをZIPにする
 ```
 
 ※ZIPの最大ファイルサイズは 1 MB です
