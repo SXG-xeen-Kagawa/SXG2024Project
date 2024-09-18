@@ -21,7 +21,7 @@
 他プレイヤーをキックで吹っ飛ばして妨害も可能！？<br>
 
 ▼クリックで動画再生ページへジャンプします。（同じタブ/Youtubeです）
-[![紹介動画](https://github.com/user-attachments/assets/9a6cabb4-a335-4f96-aa77-af5715f97983)](https://youtu.be/5TRa4eK_FKI "紹介動画")
+[![紹介動画](https://github.com/user-attachments/assets/9a6cabb4-a335-4f96-aa77-af5715f97983)](https://youtu.be/71T6CeakokA "紹介動画")
 <br>※画面は開発中のものです<br>
 
 - 一試合4人のAIプレイヤーで対戦
