@@ -27,7 +27,7 @@ namespace SXG2024
         private class Data : ScriptableSingleton<Data>
         {
             /// <summary>
-            /// 申込時に発行される参加番号（3桁）
+            /// 申込時に発行される参加番号（7桁）
             /// </summary>
             public int participantID = 0;
             /// <summary>
@@ -46,7 +46,7 @@ namespace SXG2024
             public bool isRunnning = false;
 
             public string GetName()
-                => $"Player{participantID:D3}";
+                => $"Player{participantID:D7}";
         }
 
         private void OnGUI()
@@ -58,7 +58,7 @@ namespace SXG2024
 
             // 参加番号
             var participantID = EditorGUILayout.IntField("　受付番号:", data.participantID);
-            data.participantID = Mathf.Clamp(participantID, 0, 999);
+            data.participantID = Mathf.Clamp(participantID, 0, 9999999);
             GUILayout.Label("　※connpassエントリー時に発行された受付番号を入力してください");
 
             GUILayout.Space(10);
