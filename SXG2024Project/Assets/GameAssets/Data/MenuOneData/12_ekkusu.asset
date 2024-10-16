@@ -24,4 +24,7 @@ MonoBehaviour:
   - m_foodType: 6
     m_count: 1
     m_onPriceRatioBonus: 0
+  - m_foodType: 8
+    m_count: 1
+    m_onPriceRatioBonus: 0
   m_badFoods: 07000000

@@ -267,12 +267,12 @@ namespace SXG2024
                 FoodType[] results = new FoodType[m_drawLotteryFoods.Count - m_foodPopCount];
                 for (int i=0; i < results.Length; ++i)
                 {
-                    results[i] = m_drawLotteryFoods[m_foodPopCount + 1];
+                    results[i] = m_drawLotteryFoods[m_foodPopCount + i];
                 }
                 return results;
             } else
             {
-                return null;
+                return new FoodType[0];
             }
         }
 

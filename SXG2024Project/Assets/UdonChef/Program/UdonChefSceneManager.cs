@@ -944,7 +944,7 @@ namespace SXG2024
         public IList<FoodType> GetFoodsListOnHand(int playerId)
         {
             var playerSheet = m_playerEntrySheetList[playerId];
-            return playerSheet.m_foodsListOnHand;
+            return new List<FoodType>(playerSheet.m_foodsListOnHand);
         }
 
 
