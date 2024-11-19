@@ -3,6 +3,18 @@
 ![画面_タイトル](https://github.com/user-attachments/assets/2581da80-0fa1-4c2a-b707-048a0b369406)
 <br>※画像は開発中のものです<br>
 
+## このイベントは終了しました
+
+ご参加いただいた皆さま、ありがとうございました！<br>
+当日、現地ではたくさんの方に見ていただいて大盛り上がりでした！<br>
+次回のSXGでもプロバトを開催予定です。今回ご参加された皆さまもぜひ、次回も奮ってご参加ください♪
+<br>
+<br>
+予選：<br>
+https://youtu.be/HWVAMpMQ3mM　<br>
+決勝トーナメント：<br>
+https://www.youtube.com/watch?v=yCeCn7_0zZw　<br>
+
 ## 概要
 
 [『Sanuki X Game 2024』](https://www.showxguys.org/)イベントの一般参加企画です。<br>
